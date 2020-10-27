@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Americans Abroad - Where can you move?</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+  </head>
+  <body>
+    
+    <!-- Navigation element with the website's logo and navmenu -->
+    <nav>
+      <a href="/index.html"><img id="logo" src="/images/icon-aa-100px.png" alt="Icon"></a>
+      <img id="hamburger" src="/images/hamburger.svg" alt="Menu">
+      <div id="overlay"></div>
+      <ul id="menu">
+        <li><a href="/index.html" class="nav-white">Home</a></li>
+        <!-- <li><a href="/pg2-where-move/index.html" class="nav-white">Where to Move</a></li> -->
+        <li><a href="/pg3-adv-disadv/index.html" class="nav-white">Life with Dual Citizenship</a></li>
+        <li><a href="/pg4-news/index.html" class="nav-white">News</a></li>
+        <li><a href="/pg5-credits/index.html" class="nav-white">Credits</a></li>
+      </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+      <article>
+        <section>
+          <header>
+            <h2>Where can you move?</h2>
+            <p>When looking for a new place to move, it is always important to consider the viability of holding multiple passports in that country. Many countries have different laws that apply to where you may or may not be able to hold a second passport in.</p>
+          </header>
+        </section>
+
+        <section class="map-grid">
+          <section id="map-describe">
+            <h2>National policy on multiple citizenship</h2>
+            <ul>
+              <li><div class="square"></div><a href="#permitted-yes">Permitted</a></li>
+              <li><div class="square" id="square-restrict"></div><a href="#permitted-restricted">Permitted with restrictions,<br>ㅤ not permitted with exceptions</a></li>
+              <li><div class="square" id="square-no"></div><a href="#permitted-no">Not permitted</a></li>
+            </ul>
+          </section>
+          <img src="/images/map-dual-citizenship.png" alt="Map of Countries by Dual Citizenship" id="map">
+        </section>
+
+        <section class="permitted-yes" id="permitted-yes">
+          <h2>Permitted</h2>
+          <p>As you can tell, there is a range of countries that allow dual citizenship throughout every continent.  Generally, this means you're able to work, live, and travel in these countries without any restrictions or repercussions caused by owning another passport.  However, this is not always the case with every country.</p>
+        </section>
+
+        <section class="permitted-restricted" id="permitted-restricted">
+          <h2>Permitted With Restrictions / Not Permitted With Exceptions</h2>
+          <p>Some countries may generally allow its nationals to hold multiple citizens, but only under specific circumstances.  These circumstances vary between country to country and each situation must be researched carefully.</p>
+        </section>
+
+        <section class="permitted-no" id="permitted-no">
+          <h2>Not Permitted</h2>
+          <p>While it's impossible for one country to disallow you from gaining citizenship in another country, there are ways in which countries can deny its own citizenship to people in the case that they gain another citizenship.  This can be caused by:</p>
+          <ul>
+            <li>Possible or automatic loss of citizenship if another citizenship is acquired voluntarily</li>
+            <li>Possible loss of citizenship if people with multiple citizenships do not renounce their other citizenship after reaching the age of majority (legal adulthood) or within a certain period of time after obtaining multiple citizenships</li>
+            <li>Denying automatic citizenship by birth if the child may acquire another citizenship automatically at birth</li>
+            <li>Requiring an applicant for naturalization to apply to renounce their existing citizenships, and provide proof from those countries that they have renounced the citizenship</li>
+          </ul>
+        </section>
+
+      </article>
+    </main>
+      
+    <!-- Footer -->
+    <footer>
+      <h2>Contact Us</h2>
+      <email>americansabroad@citizen.net</email>
+      <address>98 Newtown St., Chapel Hill, NC 27514</address>
+      <p id="copyright">© 2020 Americans Abroad</p>
+    </footer>
+  </body>
+</html>
