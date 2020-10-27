@@ -108,7 +108,7 @@ nav {
 }
 
 main > article > header {
-    background-image: url("/images/american-group-blue.png");
+    background-image: url("../images/american-group-blue.png");
     color: white;
 }
 
